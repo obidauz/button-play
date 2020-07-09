@@ -1,0 +1,13 @@
+.button .blob {
+    opacity: 0;;
+}
+
+.button:hover .blob {
+    animation: 2s fadein linear normal 1;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    50% {opacity: 0.3;}
+    100%: {opacity: 0.6;}
+}
